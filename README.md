@@ -1,1 +1,5 @@
-# asdsa0879qwe2rewr3123543
+Cucumber_POM_Assignment
+
+To install: mvn clean install
+
+To run mvn run (or) Run from src/test/java/runner/testrunner.java -> run as Junit project
