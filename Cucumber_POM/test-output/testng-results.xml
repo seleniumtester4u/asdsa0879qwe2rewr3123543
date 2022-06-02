@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-18T15:03:04 IST" name="Default suite" finished-at="2022-02-18T15:03:21 IST" duration-ms="17223">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunnerTestnG@101952da]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-18T15:03:04 IST" name="Default test" finished-at="2022-02-18T15:03:21 IST" duration-ms="17223">
+      <class name="Runner.TestRunnerTestnG">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.TestRunnerTestnG@101952da]" started-at="2022-02-18T15:03:04 IST" name="setUpClass" finished-at="2022-02-18T15:03:04 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunnerTestnG@101952da]" started-at="2022-02-18T15:03:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-18T15:03:18 IST" duration-ms="13144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify header links in churchdwight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Churchdwight Consumer Brand Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunnerTestnG@101952da]" started-at="2022-02-18T15:03:18 IST" name="tearDownClass" finished-at="2022-02-18T15:03:21 IST" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunnerTestnG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
